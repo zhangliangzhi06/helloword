@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <group>
+        <property name="db.host" defaultValue="rm-bp32142141.mysql.rds.aliyuncs.com:3306/hello"/>
+        <property name="db.username" defaultValue="root"/>
+        <property name="db.password" defaultValue="123456"/>
+    </group>
+    <script>
+        <generate template="hello-dal.properties.vm" destfile="hello-dal.properties" charset="UTF-8"/>
+    </script>
+</config>
